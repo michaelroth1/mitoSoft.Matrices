@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace mitoSoft.Matrices.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class CreationTests
     {
         [TestMethod]
         public void ThreeRows()
