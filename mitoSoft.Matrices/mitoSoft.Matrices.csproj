@@ -9,6 +9,7 @@
     <PackageProjectUrl>https://github.com/michaelroth1/mitoSoft.Matrices</PackageProjectUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageTags>Matrix Calculation Matrices</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
