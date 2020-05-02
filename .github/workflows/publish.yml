@@ -42,7 +42,7 @@ jobs:
           # TAG_FORMAT: v*
 
           # API key to authenticate with NuGet server
-          NUGET_KEY: ${{oy2l2txph2tytxqh4ufajhofdpmonzcexjfbykwec3rimm}}
+          NUGET_KEY: oy2l2txph2tytxqh4ufajhofdpmonzcexjfbykwec3rimm
 
           # API key to authenticate with NuGet symbols server, defaults to NUGET_KEY
           # NUGET_SYMBOL_KEY: ${{secrets.NUGET_SYMBOLS_API_KEY}}
