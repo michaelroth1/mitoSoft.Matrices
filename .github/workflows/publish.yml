@@ -1,0 +1,18 @@
+name: Build
+
+on: [push]
+ 
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup Nuget.exe
+      uses: warrenbuckley/Setup-Nuget@v1
+    - name: Restore packages
+      run: nuget restore mitoSoft.Matrices.sln
+    - name: Setup MSBuild.exe
+      uses: warrenbuckley/Setup-MSBuild@v1
+    - name: Build with MSBuild
+      run: msbuild  mitoSoft.Matrices.sln -p:Configuration=Release
