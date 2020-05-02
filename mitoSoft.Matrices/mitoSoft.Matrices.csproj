@@ -10,6 +10,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageTags>Matrix Calculation Matrices</PackageTags>
     <Version>1.0.1</Version>
+    <Description>Net library for handling matix calculation</Description>
   </PropertyGroup>
 
   <ItemGroup>
