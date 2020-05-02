@@ -5,7 +5,7 @@ on:
       - master # Default release branch
 jobs:
   publish:
-    name: build, pack & publish
+    name: build, pack & publish 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -33,7 +33,7 @@ jobs:
           # VERSION_REGEX: <AssemblyVersion>(.*)<\/Version>
           
           # Useful with external providers like Nerdbank.GitVersioning, ignores VERSION_FILE_PATH & VERSION_REGEX
-          VERSION_STATIC: 1.0.0
+          VERSION_STATIC: 1.0.1
 
           # Flag to toggle git tagging, enabled by default
           # TAG_COMMIT: true
@@ -42,7 +42,7 @@ jobs:
           # TAG_FORMAT: v*
 
           # API key to authenticate with NuGet server
-          NUGET_KEY: ${{oy2l2txph2tytxqh4ufajhofdpmonzcexjfbykwec3rimm}}
+          NUGET_KEY: oy2l2txph2tytxqh4ufajhofdpmonzcexjfbykwec3rimm
 
           # API key to authenticate with NuGet symbols server, defaults to NUGET_KEY
           # NUGET_SYMBOL_KEY: ${{secrets.NUGET_SYMBOLS_API_KEY}}
