@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\mitoSoft.Graphs\mitoSoft.Graphs\mitoSoft.png">
+    <None Include="mitoSoft.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
