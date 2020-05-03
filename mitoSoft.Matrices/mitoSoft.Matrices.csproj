@@ -12,6 +12,7 @@
     <Version>1.0.3</Version>
     <Description>Net library for handling matix calculation</Description>
     <PackageIcon></PackageIcon>
+    <UserSecretsId>667b7672-47f3-4471-aaa0-bbb065c654a8</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
