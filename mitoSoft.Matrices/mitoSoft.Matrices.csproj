@@ -9,7 +9,7 @@
     <PackageProjectUrl>https://github.com/michaelroth1/mitoSoft.Matrices</PackageProjectUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageTags>Matrix Calculation Matrices</PackageTags>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Description>Net library for handling matix calculation</Description>
     <PackageIcon>mitoSoft.png</PackageIcon>
     <UserSecretsId>667b7672-47f3-4471-aaa0-bbb065c654a8</UserSecretsId>
