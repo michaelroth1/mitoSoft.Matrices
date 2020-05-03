@@ -9,8 +9,9 @@
     <PackageProjectUrl>https://github.com/michaelroth1/mitoSoft.Matrices</PackageProjectUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageTags>Matrix Calculation Matrices</PackageTags>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Description>Net library for handling matix calculation</Description>
+    <PackageIcon>mitoSoft.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,6 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\..\mitoSoft.Graphs\mitoSoft.Graphs\mitoSoft.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
