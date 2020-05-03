@@ -11,8 +11,12 @@
     <PackageTags>Matrix Calculation Matrices</PackageTags>
     <Version>1.0.3</Version>
     <Description>Net library for handling matix calculation</Description>
-    <PackageIcon>mitoSoft.png</PackageIcon>
+    <PackageIcon></PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="mitoSoft.png" />
+  </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Properties\PublishProfiles\" />
